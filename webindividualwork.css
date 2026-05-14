@@ -1,0 +1,184 @@
+
+    body {
+      font-family: 'Big Shoulders Display' , cursive;
+      margin: 0;
+      color: #444444;
+    }
+
+    .image-hero {
+      height: 953px;
+    }
+
+    .first-part {
+      display: grid;
+      grid-template-columns: 1fr 643px 1fr;
+      grid-template-rows: 953px;
+    }
+
+    .first-part1 {
+      background-color: #151515;
+    }
+
+    .first-part3 {
+      background-color: white;
+    }
+
+    .second-partup {
+      display: grid;
+      grid-template-columns: 600px 760px;
+      justify-content: center;
+      margin-top: 200px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .image-grid {
+      width: 760px;
+    }
+
+    .p1 {
+      font-family: 'Big Shoulders Display';
+      font-size: 75px;
+      font-weight: 850;
+      margin-left: 20px;
+      line-height: 70px;
+      margin-bottom: 40px;
+    }
+
+    .p2 {
+      font-family: 'Outfit';
+      margin-top: 0;
+      margin-left: 20px;
+      font-size: 27px;
+      font-weight: 100;
+      line-height: 38px;
+    }
+
+    .second-partdown {
+      margin-top: 35px;
+      display: flex;
+      gap: 40px;
+      height: 851px;
+    }
+    
+    .image-grid2 {
+      margin-left: 180px;
+      width: 750px;
+    }
+
+    .second-partdown-right {
+      display: grid;
+      grid-template-columns: 555px;
+      grid-template-rows: 390px;
+      gap: 40px;
+    }
+
+    .image-grid3 {
+      width: 555px;
+    }
+    .blacktext {
+      background-color: black;
+      color: white;
+      padding-left: 50px;
+    }
+
+    .p3 {
+      font-size: 70px;
+      font-weight: 800;
+      margin-bottom: 0;
+    }
+
+    .p4 {
+      font-family: 'Outfit';
+      font-size: 25px;
+      font-weight: 10;
+    }
+
+    .third-part {
+      background-color: #151515;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 150px;
+      margin-top: 200px;
+    }
+
+    .p5 {
+      font-size: 40px;
+      font-weight: 800;
+    }
+
+    .p6 {
+      font-family: 'Outfit';
+      font-size: 23px;
+      font-weight: 100;
+    }
+    
+    .social {
+      display: flex;
+      gap: 18px;
+    }
+
+    .pp {
+      position: absolute;
+      color: white;
+      mix-blend-mode: difference;
+      top: 150px;
+      left: 11.5%;
+      font-size: 110px;
+      font-weight: 900;
+      line-height: 100px;
+    }
+
+    .our-location {
+      position: absolute;
+      top: 185px;
+      right: 9%;
+      font-size: 30px;
+      text-decoration: none;
+    }
+
+    .locate-text {
+      background: #151515;
+      color: white;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Big Shoulders Display';
+      letter-spacing: 3px;
+      transition: 0.3s;
+    }
+
+    .locate {
+      display: inline-flex;
+      height: 72px;
+      width: 300px;
+      text-decoration: none;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+
+    .locate:hover .locate-text {
+      background-color: #D5966C;
+    }
+
+    .locate-arrow {
+      background: #D5966C;
+      width: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.5rem;
+      transition: 0.3s;
+    }
+
+    .locate:hover .locate-arrow {
+      background-color: #151515;
+    }
+    
+    .body-text {
+      font-family: 'Outfit';
+    }
