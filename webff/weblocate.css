@@ -1,0 +1,108 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-rows: 1fr 650px 300px;
+      color: white;
+    }
+
+    h2,h3 {
+      font-family: 'Big Shoulders Display';
+    }
+
+    p {
+      font-family: 'Outfit';
+      font-size: 25px;
+    }
+
+    img  {
+      width: 100%;
+      height: 100%;
+    }
+    .part2 {
+      background: #151515;
+      display: flex;
+      align-items: start;
+      justify-content: space-around;
+      padding-top: 60px;
+    }
+
+    .textour {
+      font-size: 55px;
+      line-height: 80px;
+      display: flex;
+    }
+
+    .textouri {
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+
+    .text99 {
+      color: #D5966C;
+      font-size: 50px;
+    }
+
+    .part3 {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: #D5966C;
+    }
+
+    .texth3 {
+      height: 70px;
+    }
+
+    .textp {
+      color: #151515;
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: row;
+      justify-items: center;
+      gap: 20px;
+    }
+
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    .goback {
+      position: absolute;
+      display: inline-flex;
+      width: 300px;
+      left: 10%;
+      font-size: 30px;
+      text-decoration: none;
+    }
+
+    .goback-arrow {
+      background-color: #D5966C;
+      width: 56px;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.5rem;
+      transition: 0.3s;
+    }
+
+    .goback-text {
+      background-color: #151515;
+      color: white;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Big Shoulders Display';
+      letter-spacing: 3px;
+      transition: 0.3s;
+    }
+
+    .goback:hover .goback-text {background-color: #D5966C;}
+    .goback:hover .goback-arrow {background-color: #151515;}
